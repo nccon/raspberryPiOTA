@@ -1,0 +1,11 @@
+# latest_script.py
+__version__ = "1.0.1"
+
+import auto_updater
+auto_updater.check_for_updates()
+
+def main():
+    print("Hello, world! V2")
+
+if __name__ == "__main__":
+    main()
