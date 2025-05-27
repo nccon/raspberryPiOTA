@@ -5,8 +5,8 @@ import urllib.request
 import re
 
 # --- Configuration ---
-VERSION_FILE_URL = "https://ncconremotesystems.com/OTA/latest_version.txt"
-SCRIPT_FILE_URL = "https://ncconremotesystems.com/OTA/latest_script.txt"  # .txt on server
+VERSION_FILE_URL = "https://yourserver.com/OTA/latest_version.txt"
+SCRIPT_FILE_URL = "https://yourserver.com/OTA/latest_script.txt"  # .txt on server
 TARGET_SCRIPT = "main_script.py"  # saved locally as .py
 
 def parse_version(version_str):
